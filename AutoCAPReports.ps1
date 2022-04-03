@@ -60,10 +60,10 @@ $ToEmailAddressesList   = @("Sandaruwan Samaraweera<sandaruwan.s@pro-account.lk>
 $McCommand  = '"C:\Program Files (x86)\Navitro\CAP\ManagementConsole.exe" /CreateReport'
 
 # Parametter values
-$DataBaseAddress  = 'dmz-sql-01.dmz.local\pronav,59116'
-$DataBaseTable    = 'ATC_Archive'
-$DataBaseUser     = 'sa'
-$DataBasePassword = 'Asi@16'
+$DataBaseAddress  = '<Your DB Address>'
+$DataBaseTable    = '<Your table name>'
+$DataBaseUser     = '<Your database user name>'
+$DataBasePassword = '<Your data base password>'
 $ReportType       = '/type:EXCEL'
 $UsedFields       = '/fields:"Voucher Type,Payment Method,Currency,Voucher Date"'
 
