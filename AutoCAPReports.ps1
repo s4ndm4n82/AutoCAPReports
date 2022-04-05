@@ -72,7 +72,8 @@ $DataBaseTable    = '<Your table name>'
 $DataBaseUser     = '<Your database user name>'
 $DataBasePassword = '<Your data base password>'
 $ReportType       = '/type:EXCEL'
-$UsedFields       = '/fields:"Voucher Type,Payment Method,Currentcy,Voucher Date,Due Date,Voucher Number,Bank Account,KID,Mva Amount,Total Invoice Amount Mva,Total Invoice Amount Excl Mva,Rounding Amount,Prepaid Amount,Supplier Organization No,Supplier Name,Supplier Address,Supplier City,Supplier Postal Code,Supplier Country,Customer Organization No,Customer Name,Customer Address,Customer City,Customer Country,Invoice Reference,Contract Document,Accounting Cost,Order Reference,Supplier Reference,Customer Reference,Delivery Date,Delivery Address,Delivery City,Delivery Postal Code,Delivery Country,Product No,Description,Mva,Unit,Unit Price,Quantity,Discount,Unit Price Incl Discount,Net Amount,Amount Incl Mva"'
+# Field list Voucher Type,Payment Method,Currentcy,Voucher Date,Due Date,Voucher Number,Bank Account,KID,Mva Amount,Total Invoice Amount Mva,Total Invoice Amount Excl Mva,Rounding Amount,Prepaid Amount,Supplier Organization No,Supplier Name,Supplier Address,Supplier City,Supplier Postal Code,Supplier Country,Customer Organization No,Customer Name,Customer Address,Customer City,Customer Country,Invoice Reference,Contract Document,Accounting Cost,Order Reference,Supplier Reference,Customer Reference,Delivery Date,Delivery Address,Delivery City,Delivery Postal Code,Delivery Country,Product No,Description,Mva,Unit,Unit Price,Quantity,Discount,Unit Price Incl Discount,Net Amount,Amount Incl Mva
+$UsedFields       = '/fields:"Voucher Type"' # Only one field is needed to generate the AuditLogFieldChanges report.
 
 # Report names
 $AuditLogFieldChanges   = 'AuditLogFieldChanges'
